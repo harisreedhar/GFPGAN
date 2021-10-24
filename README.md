@@ -95,6 +95,12 @@ wget https://github.com/TencentARC/GFPGAN/releases/download/v0.2.0/GFPGANCleanv1
 python inference_gfpgan.py --upscale 2 --test_path inputs/whole_imgs --save_root results
 ```
 
+**Infer video**
+
+```bash
+python infer_video.py --upscale 2 --input_video inputs/Kid_85339.mp4 --output_dir results
+```
+
 If you want want to use the original model in our paper, please see [PaperModel.md](PaperModel.md) for installation and inference.
 
 ## :european_castle: Model Zoo
